@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Article Preview Component</title>
+
+  <style>
+    body {
+      background-color: hsl(210, 36%, 96%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .div1 {
+      display: flex;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      margin: 20px;
+      max-width: 800px;
+      overflow: hidden;
+    }
+
+    .left {
+      flex: 1;
+    }
+
+    .left img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 20px;
+      flex: 1;
+    }
+
+    .innerdiv {
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      font-size: 18px;
+      line-height: 1.4;
+      margin: 0 0 10px;
+    }
+
+    .an1 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .div2 {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    .div2 img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+<body>
+  <div class="div1">
+    <div class="left">
+      <img src="./images/drawers.jpg" alt="Drawer Image">
+    </div>
+    <div class="right">
+      <div class="innerdiv"> 
+        <h2>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h2>
+        Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
+      </div>
+
+      <div class="an1">
+        <div class="div2">
+          <img src="./images/avatar-michelle.jpg" alt="Michelle Appleton">
+        </div>
+        <div>
+          Michelle Appleton <br>
+          28 Jun 2020
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <div class="attribution"> 
+    Coded by <a href="#">Rishita</a>.
+</body>
+
+</html>
